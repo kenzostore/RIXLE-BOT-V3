@@ -23,7 +23,7 @@ global.antidelete = false
 
 conn.version = [2, 2119, 6]
 conn.logger.level = "warn"
-conn.browserDescription = ['R I X L E   B O T', 'EDGE', '94.0.992.50']
+conn.browserDescription = ['FELYSIA BOT', 'EDGE', '94.0.992.50']
 
 if (fs.existsSync('./session.json')) conn.loadAuthInfo('./session.json')
 conn.on('qr', qr => {
